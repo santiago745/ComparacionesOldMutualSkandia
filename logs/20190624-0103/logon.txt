@@ -1,0 +1,363 @@
+jun 24, 2019 1:03:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMACIÓN: Detected dialect: W3C
+Se encontró una diferencia en la linea 2
+Dom original:   <android.widget.FrameLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="0" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:   <android.view.ViewGroup bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="0" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (roid.widge) --- (roid.view.)
+---------------------------------
+Se encontró una diferencia en la linea 3
+Dom original:     <android.widget.LinearLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="0" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:     <android.widget.FrameLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="0" long-clickable="false" package="com.facebook.orca" password="false" resource-id="android:id/content" scrollable="false" selected="false" text=""/>
+Diferencia: (dget.Linea) --- (dget.Frame)
+---------------------------------
+Se encontró una diferencia en la linea 4
+Dom original:       <android.widget.FrameLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:     <android.view.View NAF="true" bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.view.View" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="2" instance="0" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text=""/>
+Diferencia: () --- ()
+---------------------------------
+Se encontró una diferencia en la linea 5
+Dom original:         <android.widget.LinearLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/action_bar_root" scrollable="false" selected="false" text="">
+Dom actual:     <android.widget.FrameLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="3" instance="1" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: () --- ()
+---------------------------------
+Se encontró una diferencia en la linea 6
+Dom original:           <android.widget.FrameLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="2" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="android:id/content" scrollable="false" selected="false" text="">
+Dom actual:       <android.widget.FrameLayout bounds="[865,82][1080,297]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="Burbuja de chat con Amorsh ❤" enabled="true" focusable="false" focused="false" index="0" instance="2" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (         <) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 7
+Dom original:             <android.widget.LinearLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="2" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:         <android.view.View bounds="[865,82][1080,297]" checkable="false" checked="false" class="android.view.View" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text=""/>
+Diferencia: (         <) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 8
+Dom original:               <android.widget.LinearLayout bounds="[0,82][1080,236]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="3" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:       </android.widget.FrameLayout>
+Diferencia: (          ) --- (     </and)
+---------------------------------
+Se encontró una diferencia en la linea 9
+Dom original:                 <android.widget.ImageView bounds="[0,123][1080,206]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="0" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/imageView2" scrollable="false" selected="false" text=""/>
+Dom actual:       <android.widget.Button bounds="[670,82][884,296]" checkable="false" checked="false" class="android.widget.Button" clickable="true" content-desc="Bandeja de entrada de burbujas de chat" enabled="true" focusable="true" focused="false" index="1" instance="0" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 10
+Dom original:               </android.widget.LinearLayout>
+Dom actual:         <android.widget.ImageView bounds="[691,103][862,274]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="0" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text=""/>
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 11
+Dom original:               <android.widget.LinearLayout bounds="[0,236][1080,239]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="4" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Dom actual:         <android.widget.TextView bounds="[692,99][742,149]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="0" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="2"/>
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 12
+Dom original:               <android.widget.LinearLayout bounds="[0,239][1080,1300]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="5" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/container1" scrollable="false" selected="false" text="">
+Dom actual:       </android.widget.Button>
+Diferencia: (          ) --- (     </and)
+---------------------------------
+Se encontró una diferencia en la linea 13
+Dom original:                 <android.widget.EditText bounds="[44,311][1036,435]" checkable="false" checked="false" class="android.widget.EditText" clickable="true" content-desc="" enabled="true" focusable="true" focused="true" index="0" instance="0" long-clickable="true" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/txtUser" scrollable="false" selected="false" text="Nombre de usuario"/>
+Dom actual:       <android.widget.Button bounds="[475,82][689,296]" checkable="false" checked="false" class="android.widget.Button" clickable="true" content-desc="Ver historia" enabled="true" focusable="true" focused="false" index="2" instance="1" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 14
+Dom original:                 <android.widget.EditText bounds="[44,463][1036,587]" checkable="false" checked="false" class="android.widget.EditText" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="1" instance="1" long-clickable="true" package="com.oldmutual.mobileapp" password="true" resource-id="com.oldmutual.mobileapp:id/txtPassword" scrollable="false" selected="false" text="Contraseña"/>
+Dom actual:         <android.widget.ImageView bounds="[496,103][667,274]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text=""/>
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 15
+Dom original:                 <android.widget.LinearLayout bounds="[44,642][1036,780]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="6" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:         <android.widget.TextView bounds="[497,99][547,149]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="1" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="1"/>
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 16
+Dom original:                   <android.widget.CheckBox bounds="[44,642][597,780]" checkable="true" checked="false" class="android.widget.CheckBox" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="0" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/checkRemember" scrollable="false" selected="false" text="Recordar mi usuario"/>
+Dom actual:       </android.widget.Button>
+Diferencia: (          ) --- (     </and)
+---------------------------------
+Se encontró una diferencia en la linea 17
+Dom original:                   <android.widget.Button bounds="[611,656][1024,766]" checkable="false" checked="false" class="android.widget.Button" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="1" instance="0" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/login" scrollable="false" selected="false" text="INICIAR SESIÓN"/>
+Dom actual:     </android.widget.FrameLayout>
+Diferencia: () --- ()
+---------------------------------
+Se encontró una diferencia en la linea 18
+Dom original:                 </android.widget.LinearLayout>
+Dom actual:     <android.widget.FrameLayout bounds="[0,0][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="4" instance="3" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: () --- ()
+---------------------------------
+Se encontró una diferencia en la linea 19
+Dom original:                 <android.widget.LinearLayout bounds="[534,835][1036,896]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="3" instance="7" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/btn_forgot" scrollable="false" selected="false" text="">
+Dom actual:       <android.widget.ImageView bounds="[931,266][1013,299]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="2" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text=""/>
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 20
+Dom original:                   <android.widget.ImageView bounds="[534,835][589,890]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/imageView" scrollable="false" selected="false" text=""/>
+Dom actual:       <android.widget.FrameLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="4" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 21
+Dom original:                   <android.widget.TextView bounds="[617,835][1036,891]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="0" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/textView2" scrollable="false" selected="false" text="¿Olvidó su contraseña?"/>
+Dom actual:         <android.widget.FrameLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="5" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 22
+Dom original:                 </android.widget.LinearLayout>
+Dom actual:           <android.widget.FrameLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="6" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text=""/>
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 23
+Dom original:               </android.widget.LinearLayout>
+Dom actual:           <android.widget.LinearLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="0" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (         <) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 24
+Dom original:               <android.widget.LinearLayout bounds="[0,1300][1080,2068]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="3" instance="8" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:             <android.widget.FrameLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="7" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text=""/>
+Diferencia: (       <an) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 25
+Dom original:                 <android.widget.LinearLayout bounds="[0,1300][1080,1520]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="9" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/btn_profitability" scrollable="false" selected="false" text="">
+Dom actual:           </android.widget.LinearLayout>
+Diferencia: (          ) --- (     </and)
+---------------------------------
+Se encontró una diferencia en la linea 26
+Dom original:                   <android.widget.RelativeLayout bounds="[41,1300][229,1520]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="0" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:           <android.widget.FrameLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="8" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 27
+Dom original:                     <android.widget.ImageView bounds="[41,1300][229,1520]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="Old Mutual" enabled="true" focusable="false" focused="false" index="0" instance="2" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/icon_1" scrollable="false" selected="false" text=""/>
+Dom actual:             <android.widget.FrameLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="9" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (          ) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 28
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:               <android.widget.LinearLayout bounds="[0,299][1080,2068]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (         <) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 29
+Dom original:                   <android.widget.RelativeLayout bounds="[229,1300][931,1520]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                 <android.widget.LinearLayout bounds="[0,299][1080,453]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="2" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (       <an) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 30
+Dom original:                     <android.widget.TextView bounds="[270,1335][526,1390]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvTitleProfitability" scrollable="false" selected="false" text="Rentabilidades"/>
+Dom actual:                   <android.view.ViewGroup bounds="[0,299][1080,453]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="1" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (       <an) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 31
+Dom original:                     <android.widget.TextView bounds="[270,1390][873,1484]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="2" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="Conozca la rentabilidad histórica&#10;de nuestros productos"/>
+Dom actual:                     <android.view.ViewGroup bounds="[22,310][662,442]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="true" content-desc="Amorsh ❤, Activo(a) ahora, Detalles de la conversación" enabled="true" focusable="false" focused="false" index="0" instance="2" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (roid.widge) --- (roid.view.)
+---------------------------------
+Se encontró una diferencia en la linea 32
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                       <android.view.ViewGroup bounds="[154,324][662,383]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="Amorsh ❤" enabled="true" focusable="false" focused="false" index="0" instance="3" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     </and) --- (         <)
+---------------------------------
+Se encontró una diferencia en la linea 33
+Dom original:                   <android.widget.RelativeLayout bounds="[931,1300][1040,1520]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="2" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                       <android.view.ViewGroup bounds="[154,383][662,427]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="Activo(a) ahora" enabled="true" focusable="false" focused="false" index="1" instance="4" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="Activo(a) ahora"/>
+Diferencia: (     <andr) --- (         <)
+---------------------------------
+Se encontró una diferencia en la linea 34
+Dom original:                     <android.widget.ImageView bounds="[931,1366][1019,1454]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="Old Mutual" enabled="true" focusable="false" focused="false" index="0" instance="3" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Dom actual:                     </android.view.ViewGroup>
+Diferencia: (    <andro) --- (    </andr)
+---------------------------------
+Se encontró una diferencia en la linea 35
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                     <android.view.ViewGroup bounds="[662,310][794,442]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="true" content-desc="Llamada de voz" enabled="true" focusable="false" focused="false" index="1" instance="5" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     </and) --- (       <an)
+---------------------------------
+Se encontró una diferencia en la linea 36
+Dom original:                 </android.widget.LinearLayout>
+Dom actual:                     <android.view.ViewGroup bounds="[794,310][926,442]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="true" content-desc="Videochat" enabled="true" focusable="false" focused="false" index="2" instance="6" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     </and) --- (         <)
+---------------------------------
+Se encontró una diferencia en la linea 37
+Dom original:                 <android.widget.LinearLayout bounds="[193,1520][1080,1523]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="10" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Dom actual:                     <android.view.ViewGroup bounds="[926,310][1058,442]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="true" content-desc="Detalles de la conversación" enabled="true" focusable="false" focused="false" index="3" instance="7" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     <andr) --- (         <)
+---------------------------------
+Se encontró una diferencia en la linea 38
+Dom original:                 <android.widget.LinearLayout bounds="[0,1523][1080,1743]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="2" instance="11" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/btn_simulator" scrollable="false" selected="false" text="">
+Dom actual:                   </android.view.ViewGroup>
+Diferencia: (     <andr) --- (       </a)
+---------------------------------
+Se encontró una diferencia en la linea 39
+Dom original:                   <android.widget.RelativeLayout bounds="[41,1523][229,1743]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="3" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                 </android.widget.LinearLayout>
+Diferencia: (       <an) --- (     </and)
+---------------------------------
+Se encontró una diferencia en la linea 40
+Dom original:                     <android.widget.ImageView bounds="[41,1523][229,1743]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="Old Mutual" enabled="true" focusable="false" focused="false" index="0" instance="4" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/icon_2" scrollable="false" selected="false" text=""/>
+Dom actual:                 <android.widget.FrameLayout bounds="[0,453][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="10" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (         <) --- (     <andr)
+---------------------------------
+Se encontró una diferencia en la linea 41
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                   <android.view.ViewGroup bounds="[0,453][1080,2068]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="8" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (    </andr) --- (    <andro)
+---------------------------------
+Se encontró una diferencia en la linea 42
+Dom original:                   <android.widget.RelativeLayout bounds="[229,1523][931,1743]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="4" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                     <android.view.ViewGroup bounds="[0,453][1080,2068]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="9" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (     <andr) --- (       <an)
+---------------------------------
+Se encontró una diferencia en la linea 43
+Dom original:                     <android.widget.TextView bounds="[270,1553][486,1608]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="3" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvTitleSimulators" scrollable="false" selected="false" text="Simuladores"/>
+Dom actual:                       <android.widget.FrameLayout bounds="[0,453][1080,2068]" checkable="false" checked="false" class="android.widget.FrameLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="11" long-clickable="false" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="false" selected="false" text="">
+Diferencia: (     <andr) --- (       <an)
+---------------------------------
+Se encontró una diferencia en la linea 44
+Dom original:                     <android.widget.TextView bounds="[270,1608][808,1713]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="4" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="Herramientas que le facilitan&#10;su planeación financiera"/>
+Dom actual:                         <androidx.recyclerview.widget.RecyclerView bounds="[0,453][1080,2068]" checkable="false" checked="false" class="androidx.recyclerview.widget.RecyclerView" clickable="false" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="0" long-clickable="true" package="com.facebook.orca" password="false" resource-id="com.facebook.orca:id/(name removed)" scrollable="true" selected="false" text="">
+Diferencia: (     <andr) --- (         <)
+---------------------------------
+Se encontró una diferencia en la linea 45
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                           <android.view.ViewGroup bounds="[0,453][1080,575]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="10" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 46
+Dom original:                   <android.widget.RelativeLayout bounds="[931,1523][1040,1743]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="5" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                             <android.view.ViewGroup bounds="[0,453][1080,575]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="11" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 47
+Dom original:                     <android.widget.ImageView bounds="[931,1589][1019,1677]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="Old Mutual" enabled="true" focusable="false" focused="false" index="0" instance="5" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Dom actual:                               <android.view.ViewGroup bounds="[33,476][132,575]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="true" content-desc="Abrir menú del perfil" enabled="true" focusable="true" focused="false" index="0" instance="12" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 48
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                               <android.view.ViewGroup NAF="true" bounds="[165,453][915,526]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="1" instance="13" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 49
+Dom original:                 </android.widget.LinearLayout>
+Dom actual:                               <android.view.ViewGroup bounds="[165,476][574,575]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="14" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 50
+Dom original:                 <android.widget.LinearLayout bounds="[193,1743][1080,1746]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="3" instance="12" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Dom actual:                                 <android.view.ViewGroup bounds="[165,476][409,575]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="15" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 51
+Dom original:                 <android.widget.LinearLayout bounds="[0,1746][1080,1966]" checkable="false" checked="false" class="android.widget.LinearLayout" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="4" instance="13" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/btn_channelGuide" scrollable="false" selected="false" text="">
+Dom actual:                               </android.view.ViewGroup>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 52
+Dom original:                   <android.widget.RelativeLayout bounds="[41,1746][229,1966]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="6" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                             </android.view.ViewGroup>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 53
+Dom original:                     <android.widget.ImageView bounds="[41,1746][229,1966]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="Old Mutual" enabled="true" focusable="false" focused="false" index="0" instance="6" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/icon_3" scrollable="false" selected="false" text=""/>
+Dom actual:                           </android.view.ViewGroup>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 54
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                           <android.view.ViewGroup bounds="[0,575][1080,965]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="16" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 55
+Dom original:                   <android.widget.RelativeLayout bounds="[229,1746][931,1966]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="7" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                             <android.view.ViewGroup bounds="[0,608][1080,965]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="Respondiste a Amorsh ❤" enabled="true" focusable="false" focused="false" index="0" instance="17" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="Respondiste a Amorsh ❤"/>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 56
+Dom original:                     <android.widget.TextView bounds="[270,1776][552,1831]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="5" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvTitle" scrollable="false" selected="false" text="Guía de Canales"/>
+Dom actual:                           </android.view.ViewGroup>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 57
+Dom original:                     <android.widget.TextView bounds="[270,1831][827,1936]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="6" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvPhone2" scrollable="false" selected="false" text="Ponemos a su disposición los&#10;distintos canales de servicio"/>
+Dom actual:                           <android.view.ViewGroup bounds="[0,965][1080,1070]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="18" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 58
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                             <android.view.ViewGroup bounds="[0,971][1080,1070]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="19" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 59
+Dom original:                   <android.widget.RelativeLayout bounds="[931,1746][1040,1966]" checkable="false" checked="false" class="android.widget.RelativeLayout" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="2" instance="8" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text="">
+Dom actual:                               <android.view.ViewGroup bounds="[273,971][1080,1070]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="20" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 60
+Dom original:                     <android.widget.ImageView bounds="[931,1812][1019,1900]" checkable="false" checked="false" class="android.widget.ImageView" clickable="false" content-desc="Old Mutual" enabled="true" focusable="false" focused="false" index="0" instance="7" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Dom actual:                                 <android.view.ViewGroup bounds="[570,971][1014,1070]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="21" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: (     <andr) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 61
+Dom original:                   </android.widget.RelativeLayout>
+Dom actual:                               </android.view.ViewGroup>
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 62
+Dom original:                 </android.widget.LinearLayout>
+Dom actual:                             </android.view.ViewGroup>
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 63
+Dom original:               </android.widget.LinearLayout>
+Dom actual:                           </android.view.ViewGroup>
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 64
+Dom original:             </android.widget.LinearLayout>
+Dom actual:                           <android.view.ViewGroup bounds="[0,1070][1080,1356]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="3" instance="22" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 65
+Dom original:           </android.widget.FrameLayout>
+Dom actual:                             <android.view.ViewGroup bounds="[0,1103][1080,1356]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="Respondiste a Amorsh ❤" enabled="true" focusable="false" focused="false" index="0" instance="23" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="Respondiste a Amorsh ❤"/>
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 66
+Dom original:         </android.widget.LinearLayout>
+Dom actual:                           </android.view.ViewGroup>
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 67
+Dom original:       </android.widget.FrameLayout>
+Dom actual:                           <android.view.ViewGroup bounds="[0,1356][1080,1488]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="4" instance="24" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: (     </and) --- (          )
+---------------------------------
+Se encontró una diferencia en la linea 68
+Dom original:     </android.widget.LinearLayout>
+Dom actual:                             <android.view.ViewGroup bounds="[0,1389][1080,1488]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="25" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: () --- ()
+---------------------------------
+Se encontró una diferencia en la linea 69
+Dom original:   </android.widget.FrameLayout>
+Dom actual:                               <android.view.ViewGroup bounds="[267,1389][1080,1488]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="26" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text="">
+Diferencia: () --- ()
+---------------------------------
+Se encontró una diferencia en la linea 70
+Dom original: </hierarchy>
+Dom actual:                                 <android.view.ViewGroup bounds="[564,1389][1014,1488]" checkable="false" checked="false" class="android.view.ViewGroup" clickable="false" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="27" long-clickable="false" package="com.facebook.orca" password="false" resource-id="" scrollable="false" selected="false" text=""/>
+Diferencia: () --- ()
+---------------------------------
+Se encontró una diferencia en la linea 71
+Dom original: 
+Dom actual:                               </android.view.ViewGroup>
+Diferencia: () --- ()
+---------------------------------
+Comparando imagenes de look and feel
+Error: Las dimensiones de la imagen son distintas
+Error realizando acciones, se toma pantallazo An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P77FD0S', ip: '192.168.1.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Usuario\Desktop\Co..., appActivity: com.oldmutual.mobileapp.ui...., appPackage: com.oldmutual.mobileapp, appWaitActivity: com.oldmutual.mobileapp.ui...., appWaitPackage: com.oldmutual.mobileapp, databaseEnabled: false, desired: {app: C:\Users\Usuario\Desktop\Co..., deviceName: My Phone, noReset: true, platformName: android}, deviceManufacturer: Xiaomi, deviceModel: MI 8 Lite, deviceName: 727f2d1, deviceScreenSize: 1080x2280, deviceUDID: 727f2d1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 9, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 78fd4a4b-1248-4765-b084-2d3b582e82ad
+*** Element info: {Using=id, value=com.oldmutual.mobileapp:id/txtUser}
+Finalizando ejecución a las 20190624-010400

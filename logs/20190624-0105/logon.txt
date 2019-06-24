@@ -1,0 +1,5 @@
+jun 24, 2019 1:05:36 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMACIÓN: Detected dialect: W3C
+Comparando imagenes de look and feel
+Error: Las dimensiones de la imagen son distintas
+Finalizando ejecución a las 20190624-010557
