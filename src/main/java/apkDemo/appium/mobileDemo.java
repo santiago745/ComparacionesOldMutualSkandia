@@ -155,6 +155,38 @@ public class mobileDemo {
     	}
     }
     
+    public void Login() {
+    	try {
+	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/textView2");
+	    	texto.click();
+	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/btnContinueToReset");
+	    	ut.screenshot("Capturado");
+    	}catch(Exception e) {
+    		ut.screenshot("Error objeto");
+    		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
+    	}
+    }
+    
+    public void Certificados() {
+    	try {
+	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView9");
+	    	texto.click();
+    	}catch(Exception e) {
+    		ut.screenshot("Error objeto");
+    		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
+    	}
+    }
+    
+    public void Canales() {
+    	try {
+	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
+	    	texto.click();
+    	}catch(Exception e) {
+    		ut.screenshot("Error objeto");
+    		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
+    	}	
+    }
+    
     public List<String> compareDoms(String ruta1, String ruta2) {
     	BufferedReader br=null;
     	BufferedReader br2=null;

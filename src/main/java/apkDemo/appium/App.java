@@ -46,8 +46,9 @@ public class App {
 	public static void main (String[]args) /*ejecutarMobile()*/ {
 		App aplicacion=new App("web"); 
 		mobileDemo md=new mobileDemo(fecha);
+		md.Login();
 		md.revisarPaginaMobile(); 
-		md.realizarAcciones();
+		//md.realizarAcciones();
 		md.teardown();
 		aplicacion.finalizarAplicacion();
 	}

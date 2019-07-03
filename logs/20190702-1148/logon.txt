@@ -1,0 +1,15 @@
+jul 02, 2019 11:48:44 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMACIÓN: Detected dialect: W3C
+Se encontró una diferencia en la linea 14
+Dom original:                   <android.widget.TextView bounds="[55,343][485,417]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvTitle" scrollable="false" selected="false" text="Apreciado Cliente"/>
+Dom actual:                   <android.widget.TextView bounds="[55,343][553,409]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="0" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvTitle" scrollable="false" selected="false" text="Apreciado Cliente"/>
+Diferencia: (343][485,4) --- (343][553,4)
+---------------------------------
+Se encontró una diferencia en la linea 15
+Dom original:                   <android.widget.TextView bounds="[55,472][1025,895]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="2" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvTextInfo" scrollable="false" selected="false" text="Para   restablecer   su   contraseña   y      enviarle     una  nueva,            debe           tener           registrado            su           correo electrónico en nuestros sistemas de información. Si     aún    no    lo   tiene,   comuníquese   con   nuestros  analistas del Contact Center al (031) 658 4000 en Bogotá, o al 018000 517526   a     nivel nacional, de lunes a  viernes  de 8:00 am a  7:00 pm  y sábados de 9:00 am a 1:00 pm. "/>
+Dom actual:                   <android.widget.TextView bounds="[55,464][1025,949]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="1" instance="2" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/tvTextInfo" scrollable="false" selected="false" text="Para restablecer su contraseña y enviarle una nueva, debe tener registrado su correo electrónico en nuestros sistemas de información. Si aún no lo tiene, comuníquese con nuestros analistas del Contact Center al (031) 658 4000 en Bogotá, o al 018000 517526 a nivel nacional, de lunes a viernes de 8:00 am a 7:00 pm y sábados de 9:00 am a 1:00 pm."/>
+Diferencia: ([55,472][1) --- ([55,464][1)
+---------------------------------
+Comparando imagenes de look and feel
+Porcentaje de diferencia en look and feel:3.7483057604674963
+Finalizando ejecución a las 20190702-114852
