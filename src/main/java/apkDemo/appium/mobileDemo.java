@@ -160,7 +160,7 @@ public class mobileDemo {
 	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/textView2");
 	    	texto.click();
 	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/btnContinueToReset");
-	    	ut.screenshot("Capturado");
+	    	ut.screenshot("ElementoCapturado");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
@@ -171,6 +171,8 @@ public class mobileDemo {
     	try {
 	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView9");
 	    	texto.click();
+	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/btCertificadoTributario");
+	    	ut.screenshot("ElementoCapturado");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
@@ -181,6 +183,8 @@ public class mobileDemo {
     	try {
 	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
 	    	texto.click();
+	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/tvTitle0");
+	    	ut.screenshot("ElementoCapturado");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
