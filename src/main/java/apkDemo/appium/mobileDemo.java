@@ -143,10 +143,10 @@ public class mobileDemo {
     public void realizarAcciones() {
     	try {
 	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtUser");
-	    	texto.sendKeys("Saludos");
+	    	texto.sendKeys("-112233000");
 	    	ut.driver.navigate().back();
 	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtPassword");
-	    	texto2.sendKeys("Formulario");
+	    	texto2.sendKeys("12");
 	    	ut.driver.navigate().back();
 	    	ut.screenshot("Formulario lleno");
     	}catch(Exception e) {
