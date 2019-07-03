@@ -44,15 +44,21 @@ public class App {
 	}*/
 	
 	public static void main (String[]args) /*ejecutarMobile()*/ {
-		App aplicacion=new App("web"); 
+		App aplicacion=new App("web"); 		
 		mobileDemo md=new mobileDemo(fecha);
-		//md.Login();
-		//md.Certificados();
-		//md.Canales();
+		ComparacionLogin cl=new ComparacionLogin();
+		ComparacionCertificados cc=new ComparacionCertificados();
+		ComparacionCanales co=new ComparacionCanales();
 		//md.Validacion();
 		md.revisarPaginaMobile(); 
 		md.realizarAcciones();
-		md.teardown();
+		cl.Login();
+		cl.revisarPaginaMobile();
+		cc.Certificados();
+		cc.revisarPaginaMobile();
+		co.Canales();
+		co.revisarPaginaMobile();
+		co.teardown();
 		aplicacion.finalizarAplicacion();
 	}
 

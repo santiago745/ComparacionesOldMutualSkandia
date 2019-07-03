@@ -147,8 +147,8 @@ public class mobileDemo {
 	    	ut.driver.navigate().back();
 	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtPassword");
 	    	texto2.sendKeys("12");
-	    	ut.driver.navigate().back();
 	    	ut.screenshot("Formulario lleno");
+	    	Thread.sleep(5000);
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());

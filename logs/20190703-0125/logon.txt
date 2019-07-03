@@ -1,0 +1,12 @@
+jul 03, 2019 1:25:28 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMACIÓN: Detected dialect: W3C
+Se encontró una diferencia en la linea 20
+Dom original:                 <android.widget.TextView bounds="[44,1359][1036,1496]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="5" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/DisclaimerLogin" scrollable="false" selected="false" text="&quot;El nombre de Old Mutual está siendo usado bajo licencia temporal otorgada por Old Mutual Limited Group. Las compañías de Old Mutual en Colombia, ya no hacen parte del grupo económico liderado por Old Mutual Limited.&quot;"/>
+Dom actual:                 <android.widget.TextView bounds="[44,1359][264,1397]" checkable="false" checked="false" class="android.widget.TextView" clickable="false" content-desc="" enabled="true" focusable="false" focused="false" index="5" instance="1" long-clickable="false" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/DisclaimerLogin" scrollable="false" selected="false" text=""/>
+Diferencia: (359][1036,) --- (359][264,1)
+---------------------------------
+Comparando imagenes de look and feel
+Porcentaje de diferencia en look and feel:0.4988459635532792
+Exception in thread "main" java.lang.NullPointerException
+	at apkDemo.appium.ComparacionLogin.Login(ComparacionLogin.java:164)
+	at apkDemo.appium.App.main(App.java:55)
