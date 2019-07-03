@@ -48,9 +48,10 @@ public class App {
 		mobileDemo md=new mobileDemo(fecha);
 		//md.Login();
 		//md.Certificados();
-		md.Canales();
+		//md.Canales();
+		//md.Validacion();
 		md.revisarPaginaMobile(); 
-		//md.realizarAcciones();
+		md.realizarAcciones();
 		md.teardown();
 		aplicacion.finalizarAplicacion();
 	}

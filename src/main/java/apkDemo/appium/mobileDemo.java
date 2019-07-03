@@ -167,6 +167,21 @@ public class mobileDemo {
     	}
     }
     
+    /*public void Validacion() {
+    	try {
+	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/textView2");
+	    	texto.click();
+	    	Thread.sleep(5000);
+	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/btnContinueToReset");
+	    	texto2.click();
+	    	MobileElement texto3=ut.driver.findElementById("com.oldmutual.mobileapp:id/btnContinueReset");
+	    	ut.screenshot("ElementoCapturado");
+    	}catch(Exception e) {
+    		ut.screenshot("Error objeto");
+    		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
+    	}
+    }*/
+    
     public void Certificados() {
     	try {
 	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView9");
