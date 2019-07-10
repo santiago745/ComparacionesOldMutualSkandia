@@ -50,7 +50,7 @@ public class App {
 		//md.Certificados();
 		//md.Canales();
 		//md.Validacion();
-		md.revisarPaginaMobile(); 
+		//md.revisarPaginaMobile(); //<------ cambio importante en el DOM
 		md.realizarAcciones();
 		md.teardown();
 		aplicacion.finalizarAplicacion();
