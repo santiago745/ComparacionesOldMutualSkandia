@@ -41,17 +41,30 @@ public class mobileDemo {
 	
     public void realizarAcciones() {
     	try {
-    		ut.revisarPaginaMobile("primer");
+    		
 	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtUser");
 	    	texto.sendKeys("-112233000");
 	    	ut.driver.navigate().back();
 	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtPassword");
 	    	texto2.sendKeys("12");
 	    	ut.driver.navigate().back();
+	    	ut.revisarPaginaMobile("Primero", "Segundo");
 	    	ut.screenshot("Formulario lleno");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
+    	}
+    }
+    
+    public void segundoCuadro() {
+    	try {
+    		
+    		MobileElement valida=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
+    		valida.click();
+    		ut.revisarPaginaMobile("Tercero", "cuarto");
+    	}catch(Exception e) {
+    		ut.screenshot("Error objeto");
+    		System.err.println("Error "+e.getMessage());
     	}
     }
     

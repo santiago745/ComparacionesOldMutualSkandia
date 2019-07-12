@@ -52,6 +52,7 @@ public class App {
 		//md.Validacion();
 		//md.revisarPaginaMobile(); //<------ cambio importante en el DOM
 		md.realizarAcciones();
+		md.segundoCuadro();
 		md.teardown();
 		aplicacion.finalizarAplicacion();
 	}
@@ -197,8 +198,10 @@ public class App {
 				if(lista.get(i).contains("detectedApps:")) {
 					String apps = lista.get(i);
 					resultado.add(apps);
+				    
 				}
 			}
+			
 		}else if(log.equalsIgnoreCase("ejecucion")) {
 			for(int i=0;i<lista.size();i++) {
 				if(lista.get(i).contains("Porcentaje de diferencia en look and feel:")) {

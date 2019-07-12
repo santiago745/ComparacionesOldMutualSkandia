@@ -149,19 +149,20 @@ public class UtilsMobile {
 	 
 		
 		
-	 public void revisarPaginaMobile(String Capturar) {
+	 public void revisarPaginaMobile(String domTemp, String domEstable) {
 	    	
     	 try {
     		 //src/main/java/
- 			out = new PrintWriter("recursos/domTemp.txt");
+ 			out = new PrintWriter("recursos/"+domTemp+".txt");
  			String dom=driver.getPageSource();
  			dom=prettyprintxml(dom);
  			out.println(dom);
- 			File f = new File("recursos/dom.txt");
+ 			File f = new File("recursos/"+domEstable+".txt");
  			if(!f.exists()) { 
- 			    out2 = new PrintWriter("recursos/dom.txt");
+ 			    out2 = new PrintWriter("recursos/"+domEstable+".txt");
  				out2.println(dom);
  				out2.close();
+ 				//screenshotFolder+"/"+fecha+"/screenshots/DOMLook.png", screenshotFolder+"/"+fecha+"/screenshots/DOMLookTemp.png"
  			}
      	 } catch (FileNotFoundException e) {
  			System.err.println("No se pudo crear archivo "+e.getMessage());
@@ -169,7 +170,7 @@ public class UtilsMobile {
  			out.close();
  			//out2.close();
  		}
-    	 List<String> lista =compareDoms("recursos/dom.txt","recursos/domTemp.txt");
+    	 List<String> lista =compareDoms("recursos/"+domEstable+".txt","recursos/"+domTemp+".txt");
 		for(int i=0;i<lista.size();i++) {
 			
 			System.out.println(lista.get(i));
@@ -194,7 +195,7 @@ public class UtilsMobile {
 				} catch (IOException e) {
 					System.err.println("Error copiando archivo dom look en la carpeta de fecha "+e.getMessage());
 				}
-
+				
 			}
 			
 		}
@@ -233,7 +234,7 @@ public class UtilsMobile {
 	                    int rgbA = imgA.getRGB(x, y); 
 	                    int rgbB = imgB.getRGB(x, y); 
 	                    int redA = (rgbA >> 16) & 0xff; 
-	                    int greenA = (rgbA >> 8) & 0xff; 
+	                    int greenA = (rgbA >> 8) & 0xff;
 	                    int blueA = (rgbA) & 0xff; 
 	                    int redB = (rgbB >> 16) & 0xff; 
 	                    int greenB = (rgbB >> 8) & 0xff; 

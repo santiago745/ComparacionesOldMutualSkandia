@@ -1,0 +1,7 @@
+jul 12, 2019 5:35:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMACIÓN: Detected dialect: W3C
+Comparando imagenes de look and feel
+Porcentaje de diferencia en look and feel:0.1660261841362059
+Comparando imagenes de look and feel
+Porcentaje de diferencia en look and feel:9.310887725243877
+Finalizando ejecución a las 20190712-053549
