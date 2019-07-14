@@ -48,7 +48,7 @@ public class mobileDemo {
 	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtPassword");
 	    	texto2.sendKeys("12");
 	    	ut.driver.navigate().back();
-	    	ut.revisarPaginaMobile("Primero", "Segundo");
+	    	ut.revisarPaginaMobile("SegundoDOM", "PrimerDOM");
 	    	ut.screenshot("Formulario lleno");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
@@ -61,7 +61,7 @@ public class mobileDemo {
     		
     		MobileElement valida=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
     		valida.click();
-    		ut.revisarPaginaMobile("Tercero", "cuarto");
+    		ut.revisarPaginaMobile("cuartoDOM", "tercerDOM");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error "+e.getMessage());
