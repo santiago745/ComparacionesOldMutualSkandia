@@ -56,17 +56,18 @@ public class mobileDemo {
     	}
     }
     
-    public void segundoCuadro() {
+   /*public void segundoCuadro() {
     	try {
     		
     		MobileElement valida=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
     		valida.click();
-    		ut.revisarPaginaMobile("cuartoDOM", "tercerDOM");
+    		ut.revisarSegundoDOM("cuartoDOM", "tercerDOM");
+    		ut.screenshot("Formulario");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error "+e.getMessage());
     	}
-    }
+    }*/
     
     
     

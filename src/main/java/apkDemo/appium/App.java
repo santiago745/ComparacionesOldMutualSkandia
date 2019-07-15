@@ -52,7 +52,7 @@ public class App {
 		//md.Validacion();
 		//md.revisarPaginaMobile(); //<------ cambio importante en el DOM
 		md.realizarAcciones();
-		md.segundoCuadro();
+		//md.segundoCuadro();
 		md.teardown();
 		aplicacion.finalizarAplicacion();
 	}
@@ -73,6 +73,8 @@ public class App {
 		System.setErr(out);
 		logfile=System.getProperty("user.dir")+"/logs/" + fecha + "/logon.txt";
 	}
+	
+	
 
 	public void finalizarAplicacion() {
 	

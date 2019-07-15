@@ -299,4 +299,157 @@ public class UtilsMobile {
 		    	}
 		    	return lista;
 		    }
+/*---------------------2-----------------------*/
+		/*  public void revisarSegundoDOM(String domTemp2, String domEstable2) {
+		    	
+		    	 try {
+		    		 //src/main/java/
+		 			out = new PrintWriter("recursos/"+domTemp2+".txt");
+		 			String dom=driver.getPageSource();
+		 			dom=prettyprintxml(dom);
+		 			out.println(dom);
+		 			File f = new File("recursos/"+domEstable2+".txt");
+		 			if(!f.exists()) { 
+		 			    out2 = new PrintWriter("recursos/"+domEstable2+".txt");
+		 				out2.println(dom);
+		 				out2.close();
+		 				//screenshotFolder+"/"+fecha+"/screenshots/DOMLook.png", screenshotFolder+"/"+fecha+"/screenshots/DOMLookTemp.png"
+		 			}
+		     	 } catch (FileNotFoundException e) {
+		 			System.err.println("No se pudo crear archivo "+e.getMessage());
+		 		}finally{
+		 			out.close();
+		 			//out2.close();
+		 		}
+		    	 List<String> lista =compareDomsTwo("recursos/"+domEstable2+".txt","recursos/"+domTemp2+".txt");//<----Llamado comparacion DOMS
+				for(int i=0;i<lista.size();i++) {
+					
+					System.out.println(lista.get(i));
+				}
+				revisarLookAndFeelTwo();//<-------------------------Lamado metodo tomar images
+				compareImagesTwo(screenshotFolder+"/"+fecha+"/screenshots/DOMLook2.png", screenshotFolder+"/"+fecha+"/screenshots/DOMLookTemp2.png");//<-------Llamado metodo comparacion imagenes
+		    }
+		  
+		  public void revisarLookAndFeelTwo(){
+				screenshot("DOMLookTemp2");
+				File f = new File("recursos/DOMLook2.png");
+				if(!f.exists()) { 
+					screenshot("DOMLook2");
+					File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+					try {
+						FileUtils.copyFile(scrFile, new File("recursos/DOMLook2.png"));
+					} catch (IOException e) {
+						System.err.println("No se pudo tomar el pantallazo "+e.getMessage());
+					}
+				}else {
+					try {
+						Files.copy(Paths.get("recursos/DOMLook2.png"), Paths.get(screenshotFolder+"/"+fecha+"/screenshots/DOMLook2.png"), StandardCopyOption.REPLACE_EXISTING);
+					} catch (IOException e) {
+						System.err.println("Error copiando archivo dom look en la carpeta de fecha "+e.getMessage());
+					}
+					
+				}
+				
+			}
+		  
+			public void compareImagesTwo(String file3,String file4) {
+				System.out.println("Comparando imagenes de look and feel");
+				BufferedImage imgA = null; 
+		        BufferedImage imgB = null; 
+		  
+		        try
+		        { 
+		            File fileA = new File(file3); 
+		            File fileB = new File(file4); 
+		  
+		            imgA = ImageIO.read(fileA); 
+		            imgB = ImageIO.read(fileB); 
+		        } 
+		        catch (IOException e) 
+		        { 
+		            System.out.println(e); 
+		        } 
+		        int width1 = imgA.getWidth(); 
+		        int width2 = imgB.getWidth(); 
+		        int height1 = imgA.getHeight(); 
+		        int height2 = imgB.getHeight(); 
+		  
+		        if ((width1 != width2) || (height1 != height2)) 
+		            System.out.println("Error: Las dimensiones de la imagen son distintas"); 
+		        else
+		        { 
+		            long difference = 0; 
+		            for (int y = 0; y < height1; y++) 
+		            { 
+		                for (int x = 0; x < width1; x++) 
+		                { 
+		                    int rgbA = imgA.getRGB(x, y); 
+		                    int rgbB = imgB.getRGB(x, y); 
+		                    int redA = (rgbA >> 16) & 0xff; 
+		                    int greenA = (rgbA >> 8) & 0xff;
+		                    int blueA = (rgbA) & 0xff; 
+		                    int redB = (rgbB >> 16) & 0xff; 
+		                    int greenB = (rgbB >> 8) & 0xff; 
+		                    int blueB = (rgbB) & 0xff; 
+		                    difference += Math.abs(redA - redB); 
+		                    difference += Math.abs(greenA - greenB); 
+		                    difference += Math.abs(blueA - blueB); 
+		                } 
+		            } 
+		            double total_pixels = width1 * height1 * 3; 
+		            double avg_different_pixels = difference / total_pixels; 
+		            double percentage = (avg_different_pixels/255)*100; 
+		  
+		            System.out.println("Porcentaje de diferencia en look and feel:"+ percentage); 
+		        } 
+			}
+			
+			  public List<String> compareDomsTwo(String ruta3, String ruta4) {
+			    	BufferedReader br=null;
+			    	BufferedReader br2=null;
+			    	List<String> lista=null;
+			    	try  {
+			    		lista=new LinkedList<String>();
+			    		br = new BufferedReader(new FileReader(ruta3));
+			    		br2 = new BufferedReader(new FileReader(ruta4));
+			    	    String line;
+			    	    String line2;
+			    	    int contador=0;
+
+			    	    while ((line = br.readLine()) != null && (line2=br2.readLine()) !=null) {
+			    	    	contador++;
+			    	    
+			    	    	if(!line.equals(line2)) {
+			    	    		int index=StringUtils.indexOfDifference(line, line2);
+			    	    		int i=0;
+			    	    		if(index<5) {
+			    	    			i=0;
+			    	    		}else {
+			    	    			i=5;
+			    	    		}
+			    	    		if(line.length()<=index+5||line2.length()<=index+5) {
+			    	    			i=0;
+			    	    		}
+			    	    		String subtringDiferenciaOri=line.substring(index-i,index+i);
+			    	    		String subtringDiferenciaDest=line2.substring(index-i,index+i);
+			    	    		lista.add("Se encontró una diferencia en la linea "+contador+"\nDom original: " +line+"\nDom actual: "+line2+"\nDiferencia: ("+subtringDiferenciaOri+") --- ("+subtringDiferenciaDest+")\n---------------------------------");
+			    	    	}
+			    	    }
+			    	    
+			    	}catch(Exception e) {
+			    		System.err.println("Error leyendo archivos "+e.getMessage());
+			    	}finally {
+			    		try {
+							br.close();
+						} catch (IOException e) {
+							System.err.println("No pude cerrar el primer archivo "+e.getMessage());
+						}
+			    		try {
+							br2.close();
+						} catch (IOException e) {
+							System.err.println("No pude cerrar el segundo archivo "+e.getMessage());
+						}
+			    	}
+			    	return lista;
+			    }*/
 }
