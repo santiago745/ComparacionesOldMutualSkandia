@@ -44,11 +44,11 @@ public class mobileDemo {
     		
 	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtUser");
 	    	texto.sendKeys("-112233000");
+	    	ut.revisarPaginaMobile("SegundoDOM", "PrimerDOM");
 	    	ut.driver.navigate().back();
 	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtPassword");
 	    	texto2.sendKeys("12");
-	    	ut.driver.navigate().back();
-	    	ut.revisarPaginaMobile("SegundoDOM", "PrimerDOM");
+	    	ut.driver.navigate().back();	    	
 	    	ut.screenshot("Formulario lleno");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");

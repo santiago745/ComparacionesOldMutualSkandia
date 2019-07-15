@@ -1,0 +1,15 @@
+jul 15, 2019 6:29:46 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFORMACIÓN: Detected dialect: W3C
+Se encontró una diferencia en la linea 12
+Dom original:                 <android.widget.EditText bounds="[44,650][1036,760]" checkable="false" checked="false" class="android.widget.EditText" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="0" instance="0" long-clickable="true" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/txtUser" scrollable="false" selected="false" text="-112233000"/>
+Dom actual:                 <android.widget.EditText NAF="true" bounds="[44,650][1036,760]" checkable="false" checked="false" class="android.widget.EditText" clickable="true" content-desc="" enabled="true" focusable="true" focused="true" index="0" instance="0" long-clickable="true" package="com.oldmutual.mobileapp" password="false" resource-id="com.oldmutual.mobileapp:id/txtUser" scrollable="false" selected="false" text=""/>
+Diferencia: (Text bound) --- (Text NAF=")
+---------------------------------
+Se encontró una diferencia en la linea 13
+Dom original:                 <android.widget.EditText bounds="[44,788][1036,898]" checkable="false" checked="false" class="android.widget.EditText" clickable="true" content-desc="" enabled="true" focusable="true" focused="true" index="1" instance="1" long-clickable="true" package="com.oldmutual.mobileapp" password="true" resource-id="com.oldmutual.mobileapp:id/txtPassword" scrollable="false" selected="false" text="•2"/>
+Dom actual:                 <android.widget.EditText NAF="true" bounds="[44,788][1036,898]" checkable="false" checked="false" class="android.widget.EditText" clickable="true" content-desc="" enabled="true" focusable="true" focused="false" index="1" instance="1" long-clickable="true" package="com.oldmutual.mobileapp" password="true" resource-id="com.oldmutual.mobileapp:id/txtPassword" scrollable="false" selected="false" text=""/>
+Diferencia: (Text bound) --- (Text NAF=")
+---------------------------------
+Comparando imagenes de look and feel
+Porcentaje de diferencia en look and feel:0.06448249648570713
+Finalizando ejecución a las 20190715-063004
