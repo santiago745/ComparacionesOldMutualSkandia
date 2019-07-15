@@ -51,8 +51,11 @@ public class App {
 		//md.Canales();
 		//md.Validacion();
 		//md.revisarPaginaMobile(); //<------ cambio importante en el DOM
-		md.realizarAcciones();
-		md.segundoCuadro();
+		md.Login();
+		md.CContacto();
+		md.Certificados();
+		//md.retiros();
+		
 		md.teardown();
 		aplicacion.finalizarAplicacion();
 	}
