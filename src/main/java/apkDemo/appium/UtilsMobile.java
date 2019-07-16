@@ -176,7 +176,7 @@ public class UtilsMobile {
 			System.out.println(lista.get(i));
 		}
 		revisarLookAndFeel();
-		compareImages(screenshotFolder+"/"+fecha+"/screenshots/Login/DOMLook.png", screenshotFolder+"/"+fecha+"/screenshots/Login/DOMLookTemp.png");
+		compareImages(screenshotFolder+"/"+fecha+"/screenshots/DOMLook.png", screenshotFolder+"/"+fecha+"/screenshots/DOMLookTemp.png");
     }
 	 public void revisarLookAndFeel(){
 			screenshot("DOMLookTemp");
@@ -327,7 +327,7 @@ public class UtilsMobile {
 						System.out.println(lista.get(i));
 					}
 					revisarLookAndFeelTwo();//<-------------------------Lamado metodo tomar images
-					compareImagesTwo(screenshotFolder+"/"+fecha+"/screenshots/CContacto/DOMLook2.png", screenshotFolder+"/"+fecha+"/screenshots/CContacto/DOMLookTemp2.png");//<-------Llamado metodo comparacion imagenes
+					compareImagesTwo(screenshotFolder+"/"+fecha+"/screenshots/DOMLook2.png", screenshotFolder+"/"+fecha+"/screenshots/DOMLookTemp2.png");//<-------Llamado metodo comparacion imagenes
 			    }
 			  
 			  public void revisarLookAndFeelTwo(){
@@ -480,7 +480,7 @@ public class UtilsMobile {
 			System.out.println(lista.get(i));
 		}
 		revisarLookAndFeelThree();//<-------------------------Lamado metodo tomar images
-		compareImagesThree(screenshotFolder+"/"+fecha+"/screenshots/Certificados/DOMLook3.png", screenshotFolder+"/"+fecha+"/screenshots/Certificados/DOMLookTemp3.png");//<-------Llamado metodo comparacion imagenes
+		compareImagesThree(screenshotFolder+"/"+fecha+"/screenshots/DOMLook3.png", screenshotFolder+"/"+fecha+"/screenshots/DOMLookTemp3.png");//<-------Llamado metodo comparacion imagenes
 	    }
 	  
 	  public void revisarLookAndFeelThree(){
@@ -633,7 +633,7 @@ public class UtilsMobile {
 				System.out.println(lista.get(i));
 			}
 			revisarLookAndFeelQuarter();//<-------------------------Lamado metodo tomar images
-			compareImagesQuarter(screenshotFolder+"/"+fecha+"/screenshots/ResetPassword/DOMLook3.png", screenshotFolder+"/"+fecha+"/screenshots/ResetPassword/DOMLookTemp3.png");//<-------Llamado metodo comparacion imagenes
+			compareImagesQuarter(screenshotFolder+"/"+fecha+"/screenshots/DOMLook3.png", screenshotFolder+"/"+fecha+"/screenshots/DOMLookTemp3.png");//<-------Llamado metodo comparacion imagenes
 		    }
 		  
 		  public void revisarLookAndFeelQuarter(){
