@@ -50,7 +50,7 @@ public class mobileDemo {
 	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtPassword");
 	    	texto2.sendKeys("12");
 	    	ut.driver.navigate().back();
-	    	//ut.revisarPaginaMobile("Primero", "Segundo");
+	    	ut.revisarPaginaMobile("Primero", "Segundo");
 	    	ut.screenshot("Formulario lleno");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
@@ -63,8 +63,8 @@ public class mobileDemo {
     		
     		MobileElement valida=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
     		valida.click();
-    		ut.driver.navigate().back();
-    		//ut.revisarSegundoDOM("Tercero", "cuarto");
+    		ut.revisarSegundoDOM("Tercero", "cuarto");
+    		ut.screenshot("Formulario");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error "+e.getMessage());
@@ -73,30 +73,39 @@ public class mobileDemo {
     
     public void Certificados() {
     	try {
-   
-    	MobileElement valida=ut.driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.LinearLayout[3]/android.widget.LinearLayout[4]");
+    	ut.driver.navigate().back();
+    	MobileElement valida=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView9");
 		valida.click();
-		
-		//ut.revisarSegundoDOM("Tercero", "cuarto");
+		ut.revisarTercerDOM("Quinto", "Sexto");
+		ut.screenshot("Formulario");
 	}catch(Exception e) {
 		ut.screenshot("Error objeto");
 		System.err.println("Error "+e.getMessage());
         }
     }
-    public void realizarAcciones2() {
+    public void ResetPassword() {
     	try {
-    		
-	    	MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtUser");
-	    	texto.sendKeys("-112233000");
-	    	ut.driver.navigate().back();
-	    	MobileElement texto2=ut.driver.findElementById("com.oldmutual.mobileapp:id/txtPassword");
-	    	texto2.sendKeys("12");
-	    	ut.driver.navigate().back();
-	    	MobileElement texto3=ut.driver.findElementById("com.oldmutual.mobileapp:id/login");
-	    	texto3.click();
-	     	Thread.sleep(10000);
-	    	//ut.revisarPaginaMobile("Primero", "Segundo");
-	    	ut.screenshot("Formulario lleno");
+    		ut.driver.navigate().back();
+    		MobileElement texto=ut.driver.findElementById("com.oldmutual.mobileapp:id/btn_forgot");
+    		texto.click();
+    		Thread.sleep(5000);
+	    	/*MobileElement texto1=ut.driver.findElementById("com.oldmutual.mobileapp:id/btnContinueToReset");
+	    	texto1.click();*/
+    		ut.revisarCuartoDOM("Septimo", "Octavo");
+	    	ut.screenshot("Formulario");
+    	}catch(Exception e) {
+    		ut.screenshot("Error objeto");
+    		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
+    	}
+    }
+    
+    public void Salida() {
+    	try {
+        ut.driver.navigate().back();
+    	MobileElement texto3=ut.driver.findElementById("com.oldmutual.mobileapp:id/md_buttonDefaultPositive");
+    	texto3.click();
+    	Thread.sleep(3000);
+    	//ut.revisarCuartoDOM("Primero", "Segundo");
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());

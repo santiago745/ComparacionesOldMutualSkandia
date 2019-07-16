@@ -54,8 +54,8 @@ public class App {
 		md.Login();
 		md.CContacto();
 		md.Certificados();
-		//md.retiros();
-		
+		md.ResetPassword();
+		md.Salida();
 		md.teardown();
 		aplicacion.finalizarAplicacion();
 	}
