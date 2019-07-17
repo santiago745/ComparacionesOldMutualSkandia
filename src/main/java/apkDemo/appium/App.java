@@ -20,7 +20,7 @@ public class App {
 	static String fecha;
 	static String logfile;
 
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		
 		if(args[0].equalsIgnoreCase("web")) {
 			ejecutarWeb();
@@ -30,9 +30,9 @@ public class App {
 		}else {
 			System.out.println("Ingrese si desea ejecutar \"web\" o \"movil\" como parametro");
 		}
-	}*/
+	}
 	
-	/*public static void ejecutarWeb() {
+	public static void ejecutarWeb() {
 		App aplicacion = new App("web");
 		webDemo mbd = new webDemo(fecha);
 		mbd.inicializarDriver();
@@ -41,9 +41,9 @@ public class App {
 		aplicacion.finalizarAplicacion();
 		
 		
-	}*/
+	}
 	
-	public static void main (String[]args) /*ejecutarMobile()*/ {
+	public static void ejecutarMobile() {
 		App aplicacion=new App("web"); 
 		mobileDemo md=new mobileDemo(fecha);
 		//md.Login();
