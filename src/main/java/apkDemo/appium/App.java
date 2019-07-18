@@ -43,7 +43,7 @@ public class App {
 		
 	}
 	
-	public static void ejecutarMobile() {
+	public static void ejecutarMobile(){
 		App aplicacion=new App("web"); 
 		mobileDemo md=new mobileDemo(fecha);
 		//md.Login();
@@ -52,6 +52,7 @@ public class App {
 		//md.Validacion();
 		//md.revisarPaginaMobile(); //<------ cambio importante en el DOM
 		md.Login();
+		md.accept();
 		md.CContacto();
 		md.Certificados();
 		md.ResetPassword();

@@ -31,14 +31,29 @@ public class mobileDemo {
 	    	Thread.sleep(3000);
 	    	ut.revisarPaginaMobile("Primero", "Segundo");
 	    	ut.screenshot("Formulario lleno");
+    		MobileElement valida=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
+    		valida.click();
     	}catch(Exception e) {
     		ut.screenshot("Error objeto");
     		System.err.println("Error realizando acciones, se toma pantallazo "+e.getMessage());
     	}
     }
     
+    public void accept(){
+    	try {
+		Thread.sleep(5000);
+    	MobileElement validac1=ut.driver.findElementByXPath("//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']");
+    	validac1.click();
+    	Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+    
     public void CContacto() {
     	try {
+    		Thread.sleep(5000);
     		MobileElement valida=ut.driver.findElementById("com.oldmutual.mobileapp:id/imageView7");
     		valida.click();
     		//Thread.sleep(3000);

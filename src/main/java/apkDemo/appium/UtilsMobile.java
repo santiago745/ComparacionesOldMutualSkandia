@@ -44,6 +44,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
 
 
 
@@ -74,7 +75,9 @@ public class UtilsMobile {
 		}
 
 		DesiredCapabilities capabilities = new DesiredCapabilities();
-    	capabilities.setCapability("deviceName", mainProperties.getProperty("deviceName"));
+    	capabilities.setCapability("autoGrantPermissions", "true");
+    	capabilities.setCapability("autoAcceptAlerts", "true");
+		capabilities.setCapability("deviceName", mainProperties.getProperty("deviceName"));
     	capabilities.setCapability("app", System.getProperty("user.dir")+mainProperties.getProperty("app"));
     	capabilities.setCapability("platformName", mainProperties.getProperty("platformName"));
     	capabilities.setCapability("platformVersion", mainProperties.getProperty("platformVersion"));
